@@ -27,3 +27,30 @@
 *.exe
 *.out
 *.app
+
+
+
+# Debug files
+*.dirstamp
+*.dSYM/
+
+/autom4te.cache
+/aclocal.m4
+/m4
+/compile
+/configure
+/depcomp
+/install-sh
+/missing
+/stamp-h1
+/configure.scan
+Makefile.in
+Makefile
+config.*
+
+.deps
+
+src/anarchy-fm
+
+# these are not build files
+!/assets/**/*.obj
